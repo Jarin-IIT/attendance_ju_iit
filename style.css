@@ -1,0 +1,96 @@
+button {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: thistle;
+}
+
+.buttons {
+    text-align: center;
+}
+
+a {
+    color: salmon;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clm {
+    float: left;
+    width: 33.33%;
+    padding: 3 px;
+}
+
+.clm img {
+    height: 300px;
+}
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+    position: center;
+  }
+  #myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    position: center;
+  }
+
+  .course_head {
+    padding: .05px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+   font-size: 30px;
+  }
+  .courses {
+    border: 5px outset grey;
+    background-color: white;    
+    text-align: center;
+  }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table th, td{
+      font-size: 20px;
+      border: 1px solid black;
+  }
+  
+  .footer {
+    padding: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
